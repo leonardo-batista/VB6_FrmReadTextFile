@@ -48,6 +48,10 @@ Private Sub Exit_Click()
     End If
 End Sub
 
+Private Sub Form_Load()
+    LoadConfigINI
+End Sub
+
 Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
     If MsgBox("Are you sure you want to exit ?", vbExclamation + vbYesNo) = vbYes Then
         Unload Me
@@ -62,11 +66,55 @@ Private Sub Open_Click()
 End Sub
 
 Private Sub OpenFileTxt()
-
+    
     cmDialog1.Filter = ".txt File (*.txt)|*.txt"
     cmDialog1.DefaultExt = "txt"
     cmDialog1.DialogTitle = "Select your file"
     cmDialog1.CancelError = True
     cmDialog1.ShowOpen
+    
+    iFile = FreeFile
+        
+    Dim sLineText$
+    Dim customer As cCustomer
+    
+    Open cmDialog1.FileName For Input As #iFile
+        
+        Do While Not EOF(1)
+        
+            Input #iFile, sLineText$
+            
+            If gFileName = "" Then
+                gFileName = sLineText$
+            End If
+            
+            lineValue = Split(sLineText$, gFileIni.DelimiterColumn)
+            
+            Set customer = New cCustomer
 
+            customer.Prenom = lineValue(0)
+            customer.Nom = lineValue(1)
+            customer.BirthDate = lineValue(2)
+            customer.Email = lineValue(3)
+            customer.Nas = lineValue(4)
+            customer.Telephone1 = lineValue(5)
+            customer.Telephone2 = lineValue(6)
+            customer.CodePostal = lineValue(7)
+            customer.Number = lineValue(8)
+            customer.Complement = lineValue(9)
+            customer.Address = lineValue(10)
+            customer.City = lineValue(11)
+            customer.UnitFed = lineValue(12)
+            
+            gResultCustomers.Add Item:=customer
+
+            DoEvents
+            
+        Loop
+        
+    Close #iFile
+              
 End Sub
+
+
+
