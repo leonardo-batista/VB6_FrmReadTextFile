@@ -261,6 +261,7 @@ Private Sub Exit_Click()
 End Sub
 
 Private Sub Form_Load()
+    SystemDirectory
     LoadConfigINI
     GetInformation
     FormInformation

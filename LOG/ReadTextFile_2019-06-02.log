@@ -1,0 +1,36 @@
+[START] 2019-06-02 14:28:02
+INFO - SystemDirectory
+Code: 0 - Message: Directory LOG was created
+[End]
+[START] 2019-06-02 14:28:02
+INFO - SystemDirectory
+Code: 0 - Message: Directory INVALID was created
+[End]
+[START] 2019-06-02 14:28:02
+INFO - SystemDirectory
+Code: 0 - Message: Directory LOADED was created
+[End]
+[START] 2019-06-02 14:32:52
+INFO - Function / Method: SystemDirectory
+Code: 0 - Message: Directory INVALID was created
+[End]
+[START] 2019-06-02 14:32:52
+INFO - Function / Method: SystemDirectory
+Code: 0 - Message: Directory LOADED was created
+[End]
+[START] 2019-06-02 14:34:47
+INFO - Routine executed: SystemDirectory
+Code: 0 - Message: Directory INVALID was created
+[End]
+[START] 2019-06-02 14:34:47
+INFO - Routine executed: SystemDirectory
+Code: 0 - Message: Directory LOADED was created
+[End]
+[START] 2019-06-02 14:39:59
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-02 14:39:59
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-02 14:39:59
+[End]

@@ -16,6 +16,8 @@ Public Sub LoadConfigINI()
     gFileIni.Database = GetINISetting("ODBC", "DATABASE", gFileIni.PathFile)
     gFileIni.User = GetINISetting("ODBC", "USER", gFileIni.PathFile)
     gFileIni.Password = GetINISetting("ODBC", "PWD", gFileIni.PathFile)
+    
+    LogSystem "INFO", "LoadConfigINI", 0, "Read INI File was executed ;)"
 
 End Sub
 
@@ -24,6 +26,69 @@ Public Sub GetInformation()
     gNameMachine = GetNameMachine
     gUserMachine = GetUserMachine
     TestConnection
+    
+End Sub
+
+Public Sub SystemDirectory()
+    On Error GoTo HandleError
+    
+    Dim strPath As String
+    Dim strDirectory As String
+    
+    strPath = App.Path
+    strDirectory = "LOG"
+    
+    'LOG
+    If Dir(strPath & "\" & strDirectory, vbDirectory) = "" Then
+        MkDir strPath & "\" & strDirectory
+        LogSystem "INFO", "SystemDirectory", 0, "Directory LOG was created"
+    End If
+           
+    strDirectory = "FILE"
+           
+    'FILE
+    If Dir(strPath & "\" & strDirectory, vbDirectory) = "" Then
+        MkDir strPath & "\" & strDirectory
+        LogSystem "INFO", "SystemDirectory", 0, "Directory FILE was created"
+    End If
+    
+    strDirectory = "INVALID"
+    
+    'INVALID
+    If Dir(strPath & "\" & strDirectory, vbDirectory) = "" Then
+        MkDir strPath & "\" & strDirectory
+        LogSystem "INFO", "SystemDirectory", 0, "Directory INVALID was created"
+    End If
+           
+    strDirectory = "LOADED"
+    
+    'LOADED
+    If Dir(strPath & "\" & strDirectory, vbDirectory) = "" Then
+        MkDir strPath & "\" & strDirectory
+        LogSystem "INFO", "SystemDirectory", 0, "Directory LOADED was created"
+    End If
+           
+HandleError:
+    Debug.Print Err.Number & " " & Err.Description
+    
+End Sub
+
+Public Sub LogSystem(levelError$, rotineName$, code$, message$)
+    On Error GoTo HandleError
+
+    Dim nUnit As Integer
+    
+    nUnit = FreeFile
+    
+    Open App.Path & "\LOG\" & App.EXEName & "_" & Format(Now, "yyyy-MM-dd") & ".log" For Append As nUnit
+        Print #nUnit, "[START] " & Format(Now, "yyyy-MM-dd hh:nn:ss")
+        Print #nUnit, levelError$ & " - Routine Performed: "; rotineName$
+        Print #nUnit, "Code: " & code$ & " - Message: " & message$
+        Print #nUnit, "[End]" & Chr(13)
+    Close nUnit
+
+HandleError:
+    Debug.Print Err.Number & " " & Err.Description
     
 End Sub
 
@@ -41,6 +106,8 @@ Public Sub TestConnection()
 
         gRecordsetDB.Close
         gConnectionDB.Close
+        
+        LogSystem "INFO", "TestConnection", 0, "Connection Test with Database was executed with SUCCESS, Date: " & gDateAccess
         
 HandleError:
     Debug.Print Err.Number & " " & Err.Description

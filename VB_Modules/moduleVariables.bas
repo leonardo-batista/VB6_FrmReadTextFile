@@ -12,6 +12,11 @@ Public Declare Function GetComputerName Lib "kernel32" Alias "GetComputerNameA" 
 Private Declare Function GetUserName Lib "advapi32.dll" Alias "GetUserNameA" (ByVal lpBuffer As String, nSize As Long) As Long
 
 '--------------------------------------------------
+'DIRECTORY
+'--------------------------------------------------
+Private Declare Function MakeSureDirectoryPathExists Lib "imagehlp.dll" (ByVal lpPath As String) As Long
+
+'--------------------------------------------------
 'API Function to read information from INI File
 '--------------------------------------------------
 Public Declare Function GetPrivateProfileString Lib "kernel32" _
