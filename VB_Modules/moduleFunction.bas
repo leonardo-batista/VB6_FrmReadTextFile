@@ -16,3 +16,40 @@ HandleError:
     Debug.Print Err.Number & " " & Err.Description
 End Function
 
+Public Function GetNameMachine() As String
+    On Error GoTo HandleError
+    
+    Dim strBuffer As String
+    Dim strAns As Long
+    
+    strBuffer = Space$(255)
+    strAns = GetComputerName(strBuffer, 255)
+    
+    If strAns <> 0 Then
+        GetNameMachine = Left$(strBuffer, InStr(strBuffer, Chr(0)) - 1)
+    End If
+        
+HandleError:
+    Debug.Print Err.Number & " " & Err.Description
+    
+End Function
+
+Public Function GetUserMachine() As String
+    On Error GoTo HandleError
+    
+    Dim UserName As String
+
+    UserName = Environ("USERNAME")
+
+    If UserName <> "" Then
+       GetUserMachine = UserName
+    End If
+        
+HandleError:
+    Debug.Print Err.Number & " " & Err.Description
+    
+End Function
+
+Function GetFileNameFromPath(strFullPath As String) As String
+    GetFileNameFromPath = Right(strFullPath, Len(strFullPath) - InStrRev(strFullPath, "\"))
+End Function

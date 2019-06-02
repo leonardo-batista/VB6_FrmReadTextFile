@@ -4,7 +4,12 @@ Option Explicit
 '--------------------------------------------------
 'COMPUTER NAME
 '--------------------------------------------------
-'Public Declare Function GetComputerName Lib "kernel32" (ByVal lpBuffer As String, nSize As Long) As Long
+Public Declare Function GetComputerName Lib "kernel32" Alias "GetComputerNameA" (ByVal lpBuffer As String, nSize As Long) As Long
+
+'--------------------------------------------------
+'USER NAME
+'--------------------------------------------------
+Private Declare Function GetUserName Lib "advapi32.dll" Alias "GetUserNameA" (ByVal lpBuffer As String, nSize As Long) As Long
 
 '--------------------------------------------------
 'API Function to read information from INI File
@@ -40,3 +45,9 @@ Global gLinesWithSuccess As Integer
 Global gLinesWithError As Integer
 Global gTotalLines As Integer
 
+'--------------------------------------------------
+'VARIABLES TO LOG
+'--------------------------------------------------
+Global gUserMachine As String
+Global gNameMachine As String
+Global gDateAccess As String

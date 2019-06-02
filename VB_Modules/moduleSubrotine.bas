@@ -19,6 +19,14 @@ Public Sub LoadConfigINI()
 
 End Sub
 
+Public Sub GetInformation()
+
+    gNameMachine = GetNameMachine
+    gUserMachine = GetUserMachine
+    TestConnection
+    
+End Sub
+
 Public Sub TestConnection()
     On Error GoTo HandleError
 
@@ -26,10 +34,11 @@ Public Sub TestConnection()
         gRecordsetDB.Open "SELECT CONVERT(VARCHAR(10), GETDATE(), 121) + ' ' + CONVERT(VARCHAR(8), GETDATE(), 108) AS DATE", gConnectionDB, adOpenStatic, adLockReadOnly
         
         If gRecordsetDB.RecordCount > 0 Then
-            Dim valueTest As String
-            valueTest = gRecordsetDB.Fields!Date
+            gDateAccess = gRecordsetDB.Fields!Date
+        Else
+            gDateAccess = "Problems with Database Connection !!!"
         End If
-            
+
         gRecordsetDB.Close
         gConnectionDB.Close
         
@@ -37,3 +46,4 @@ HandleError:
     Debug.Print Err.Number & " " & Err.Description
     
 End Sub
+
