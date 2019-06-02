@@ -15,13 +15,19 @@ Public Declare Function GetPrivateProfileString Lib "kernel32" _
     , ByVal lpFileName As String) As Long
     
 '--------------------------------------------------
-''API Function to write information to the INI File
+'API Function to write information to the INI File
 '--------------------------------------------------
 Private Declare Function WritePrivateProfileString Lib "kernel32" _
     Alias "WritePrivateProfileStringA" (ByVal lpApplicationName As String, ByVal lpKeyName As Any _
     , ByVal lpString As Any, ByVal lpFileName As String) As Long
     
 Global gFileIni As New cFileIni
+
+'--------------------------------------------------
+'Connection Database (ODBC)
+'--------------------------------------------------
+Global gConnectionDB As New ADODB.Connection
+Global gRecordsetDB As New ADODB.Recordset
 
 '--------------------------------------------------
 'VARIABLES TO VALIDATION AND REPORT ABOUT FILE TXT

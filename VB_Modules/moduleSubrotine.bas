@@ -19,3 +19,21 @@ Public Sub LoadConfigINI()
 
 End Sub
 
+Public Sub TestConnection()
+    On Error GoTo HandleError
+
+        gConnectionDB.Open "Driver=SQL Server;Server=.\SQLEXPRESS;Database=" & gFileIni.Database & ";uid=" & gFileIni.User & ";pwd=" & gFileIni.Password & ""
+        gRecordsetDB.Open "SELECT CONVERT(VARCHAR(10), GETDATE(), 121) + ' ' + CONVERT(VARCHAR(8), GETDATE(), 108) AS DATE", gConnectionDB, adOpenStatic, adLockReadOnly
+        
+        If gRecordsetDB.RecordCount > 0 Then
+            Dim valueTest As String
+            valueTest = gRecordsetDB.Fields!Date
+        End If
+            
+        gRecordsetDB.Close
+        gConnectionDB.Close
+        
+HandleError:
+    Debug.Print Err.Number & " " & Err.Description
+    
+End Sub

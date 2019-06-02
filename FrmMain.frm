@@ -2,14 +2,14 @@ VERSION 5.00
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form FrmMain 
    Caption         =   "Read Text File"
-   ClientHeight    =   6210
+   ClientHeight    =   7350
    ClientLeft      =   7230
    ClientTop       =   4530
-   ClientWidth     =   9540
+   ClientWidth     =   11820
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
-   ScaleHeight     =   6210
-   ScaleWidth      =   9540
+   ScaleHeight     =   7350
+   ScaleWidth      =   11820
    StartUpPosition =   2  'CenterScreen
    Begin MSComDlg.CommonDialog cmDialog1 
       Left            =   120
@@ -41,7 +41,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
 Private Sub Exit_Click()
     If MsgBox("Are you sure you want to exit ?", vbExclamation + vbYesNo) = vbYes Then
         End
@@ -113,7 +112,7 @@ Private Sub OpenFileTxt()
         Loop
         
     Close #iFile
-              
+    
 End Sub
 
 
