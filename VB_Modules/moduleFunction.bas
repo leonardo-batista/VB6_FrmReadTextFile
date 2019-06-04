@@ -13,7 +13,7 @@ Public Function GetINISetting(ByVal sHeading As String, ByVal sKey As String, sI
     GetINISetting = Mid(sReturn, 1, lLength)
 
 HandleError:
-    Debug.Print Err.Number & " " & Err.Description
+    Call LogSystem("ERROR", "GetINISetting", Err.Number, Err.Description)
 End Function
 
 Public Function GetNameMachine() As String
@@ -30,8 +30,7 @@ Public Function GetNameMachine() As String
     End If
         
 HandleError:
-    Debug.Print Err.Number & " " & Err.Description
-    
+    Call LogSystem("ERROR", "GetNameMachine", Err.Number, Err.Description)
 End Function
 
 Public Function GetUserMachine() As String
@@ -46,8 +45,7 @@ Public Function GetUserMachine() As String
     End If
         
 HandleError:
-    Debug.Print Err.Number & " " & Err.Description
-    
+    Call LogSystem("ERROR", "GetUserMachine", Err.Number, Err.Description)
 End Function
 
 Function GetFileNameFromPath(strFullPath As String) As String

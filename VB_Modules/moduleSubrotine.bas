@@ -27,6 +27,8 @@ Public Sub GetInformation()
     gUserMachine = GetUserMachine
     TestConnection
     
+    LogSystem "INFO", "GetInformation", 0, "Informations about MachineName, User and TestConnection (Database)"
+    
 End Sub
 
 Public Sub SystemDirectory()
@@ -69,8 +71,7 @@ Public Sub SystemDirectory()
     End If
            
 HandleError:
-    Debug.Print Err.Number & " " & Err.Description
-    
+    Call LogSystem("ERROR", "SystemDirectory", Err.Number, Err.Description)
 End Sub
 
 Public Sub LogSystem(levelError$, rotineName$, code$, message$)
@@ -110,7 +111,6 @@ Public Sub TestConnection()
         LogSystem "INFO", "TestConnection", 0, "Connection Test with Database was executed with SUCCESS, Date: " & gDateAccess
         
 HandleError:
-    Debug.Print Err.Number & " " & Err.Description
-    
+    Call LogSystem("ERROR", "TestConnection", Err.Number, Err.Description)
 End Sub
 

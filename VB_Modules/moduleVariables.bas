@@ -50,6 +50,22 @@ Global gLinesWithSuccess As Integer
 Global gLinesWithError As Integer
 Global gTotalLines As Integer
 
+Global gQtyNomValid As Integer
+Global gQtyPrenomValid As Integer
+Global gQtyEmailValid As Integer
+Global gQtyTelephoneValid As Integer
+Global qQtyBirthDateValid As Integer
+Global gQtyPostalCodeValid As Integer
+Global gQtyFedUnitValid As Integer
+
+Global gQtyNomInvalid As Integer
+Global gQtyPrenomInvalid As Integer
+Global gQtyEmailInvalid As Integer
+Global gQtyTelephoneInvalid As Integer
+Global qQtyBirthDateInvalid As Integer
+Global gQtyPostalCodeInvalid As Integer
+Global gQtyFedUnitInvalid As Integer
+
 '--------------------------------------------------
 'VARIABLES TO LOG
 '--------------------------------------------------

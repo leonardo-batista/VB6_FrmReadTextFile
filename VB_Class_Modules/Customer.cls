@@ -15,6 +15,7 @@ Option Explicit
 
 'Class cCustomer
 
+Private pLineFile    As String
 Private pPrenom      As String
 Private pNom         As String
 Private pBirthDate   As String
@@ -28,6 +29,15 @@ Private pComplement  As String
 Private pAddress     As String
 Private pCity        As String
 Private pUnitFed     As String
+Private pIsValid     As Boolean
+
+Public Property Get LineFile() As String
+    LineFile = pLineFile
+End Property
+
+Public Property Let LineFile(Value As String)
+    pLineFile = Value
+End Property
 
 Public Property Get Prenom() As String
     Prenom = pPrenom
@@ -132,3 +142,12 @@ End Property
 Public Property Let UnitFed(Value As String)
     pUnitFed = Value
 End Property
+
+Public Property Get IsValid() As Boolean
+    IsValid = pIsValid
+End Property
+
+Public Property Let IsValid(Value As Boolean)
+    pIsValid = Value
+End Property
+
