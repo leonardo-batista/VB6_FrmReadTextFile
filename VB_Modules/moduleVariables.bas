@@ -45,26 +45,36 @@ Global gRecordsetDB As New ADODB.Recordset
 Global gFileName As String
 Global gFileHeader As String
 Global gResultCustomers As New Collection
+Global gValidationCustomers As New Collection
 Global gLineTotalCustomers As Integer
 Global gLinesWithSuccess As Integer
 Global gLinesWithError As Integer
 Global gTotalLines As Integer
 
+Global gQtyCustomerValid As Integer
 Global gQtyNomValid As Integer
 Global gQtyPrenomValid As Integer
+Global gQtyNASValid As Integer
 Global gQtyEmailValid As Integer
-Global gQtyTelephoneValid As Integer
+Global gQtyTelephone1Valid As Integer
+Global gQtyTelephone2Valid As Integer
 Global qQtyBirthDateValid As Integer
 Global gQtyPostalCodeValid As Integer
 Global gQtyFedUnitValid As Integer
 
+Global gQtyCustomerInvalid As Integer
 Global gQtyNomInvalid As Integer
 Global gQtyPrenomInvalid As Integer
+Global gQtyNASInvalid As Integer
 Global gQtyEmailInvalid As Integer
-Global gQtyTelephoneInvalid As Integer
+Global gQtyTelephone1Invalid As Integer
+Global gQtyTelephone2Invalid As Integer
 Global qQtyBirthDateInvalid As Integer
 Global gQtyPostalCodeInvalid As Integer
 Global gQtyFedUnitInvalid As Integer
+
+Global gRegisterIsValid As Boolean
+Global gMessageValidation As String
 
 '--------------------------------------------------
 'VARIABLES TO LOG

@@ -63,7 +63,7 @@ Begin VB.Form FrmMain
          Top             =   360
          Width           =   1455
       End
-      Begin VB.Label Label30 
+      Begin VB.Label lblTotalFedUnitInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -72,7 +72,7 @@ Begin VB.Form FrmMain
          Top             =   6720
          Width           =   660
       End
-      Begin VB.Label Label29 
+      Begin VB.Label lblTotalTelephone2Invalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -81,7 +81,7 @@ Begin VB.Form FrmMain
          Top             =   6360
          Width           =   660
       End
-      Begin VB.Label Label28 
+      Begin VB.Label lblTotalBirthDateInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -90,7 +90,7 @@ Begin VB.Form FrmMain
          Top             =   6000
          Width           =   660
       End
-      Begin VB.Label Label27 
+      Begin VB.Label lblTotalPrenomInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -99,7 +99,7 @@ Begin VB.Form FrmMain
          Top             =   5640
          Width           =   660
       End
-      Begin VB.Label Label26 
+      Begin VB.Label lblTotalCodePostalInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -108,7 +108,7 @@ Begin VB.Form FrmMain
          Top             =   6720
          Width           =   660
       End
-      Begin VB.Label Label25 
+      Begin VB.Label lblTotalTelephone1Invalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -117,7 +117,7 @@ Begin VB.Form FrmMain
          Top             =   6360
          Width           =   660
       End
-      Begin VB.Label Label24 
+      Begin VB.Label lblTotalNASInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -126,7 +126,7 @@ Begin VB.Form FrmMain
          Top             =   6000
          Width           =   660
       End
-      Begin VB.Label Label23 
+      Begin VB.Label lblTotalNomInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -135,7 +135,7 @@ Begin VB.Form FrmMain
          Top             =   5640
          Width           =   660
       End
-      Begin VB.Label Label22 
+      Begin VB.Label lblTotalCustomerInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -144,7 +144,7 @@ Begin VB.Form FrmMain
          Top             =   5280
          Width           =   660
       End
-      Begin VB.Label Label21 
+      Begin VB.Label lblTotalFedUnitValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -153,7 +153,7 @@ Begin VB.Form FrmMain
          Top             =   4440
          Width           =   660
       End
-      Begin VB.Label Label20 
+      Begin VB.Label lblTotalTelephone2Valid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -162,7 +162,7 @@ Begin VB.Form FrmMain
          Top             =   4080
          Width           =   660
       End
-      Begin VB.Label Label19 
+      Begin VB.Label lblTotalBirthDateValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -171,7 +171,7 @@ Begin VB.Form FrmMain
          Top             =   3720
          Width           =   660
       End
-      Begin VB.Label Label18 
+      Begin VB.Label lblTotalPrenomValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -180,7 +180,7 @@ Begin VB.Form FrmMain
          Top             =   3360
          Width           =   660
       End
-      Begin VB.Label Label17 
+      Begin VB.Label lblTotalCodePostalValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -189,7 +189,7 @@ Begin VB.Form FrmMain
          Top             =   4440
          Width           =   660
       End
-      Begin VB.Label Label16 
+      Begin VB.Label lblTotalTelephone1Valid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -198,7 +198,7 @@ Begin VB.Form FrmMain
          Top             =   4080
          Width           =   660
       End
-      Begin VB.Label Label15 
+      Begin VB.Label lblTotalNASValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -207,7 +207,7 @@ Begin VB.Form FrmMain
          Top             =   3720
          Width           =   660
       End
-      Begin VB.Label Label14 
+      Begin VB.Label lblTotalNomValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -216,7 +216,7 @@ Begin VB.Form FrmMain
          Top             =   3360
          Width           =   660
       End
-      Begin VB.Label Label13 
+      Begin VB.Label lblTotalCustomerValid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -708,13 +708,7 @@ Private Sub btnStartProcess_Click()
                 'Function or Methode Here
             End If
             
-            Dim count As Integer
             
-            For count = 1 To gTotalLines
-                        
-                pgrbProcessFile.Value = pgrbProcessFile.Value + 1
-            
-            Next
             
         End If
         
@@ -724,6 +718,32 @@ Private Sub btnStartProcess_Click()
 
 HandleError:
     Call LogSystem("ERROR", "btnStartProcess_Click", Err.Number, Err.Description)
+End Sub
+
+Private Sub ResumeProcess()
+
+'Register Valid
+lblTotalCustomerValid.Caption = Format(gQtyCustomerValid, String(6, "0"))
+lblTotalNomValid.Caption = Format(gQtyNomValid, String(6, "0"))
+lblTotalPrenomValid.Caption = Format(gQtyPrenomValid, String(6, "0"))
+lblTotalNASValid.Caption = Format(gQtyNASValid, String(6, "0"))
+lblTotalBirthDateValid.Caption = Format(qQtyBirthDateValid, String(6, "0"))
+lblTotalTelephone1Valid.Caption = Format(gQtyTelephone1Valid, String(6, "0"))
+lblTotalTelephone2Valid.Caption = Format(gQtyTelephone2Valid, String(6, "0"))
+lblTotalCodePostalValid.Caption = Format(gQtyPostalCodeValid, String(6, "0"))
+lblTotalFedUnitValid.Caption = Format(gQtyFedUnitValid, String(6, "0"))
+
+'Register Invalid
+lblTotalCustomerInvalid.Caption = Format(gQtyCustomerInvalid, String(6, "0"))
+lblTotalNomInvalid.Caption = Format(gQtyNomInvalid, String(6, "0"))
+lblTotalPrenomInvalid.Caption = Format(gQtyPrenomInvalid, String(6, "0"))
+lblTotalNASInvalid.Caption = Format(gQtyNASInvalid, String(6, "0"))
+lblTotalBirthDateInvalid.Caption = Format(qQtyBirthDateInvalid, String(6, "0"))
+lblTotalTelephone1Invalid.Caption = Format(gQtyTelephone1Invalid, String(6, "0"))
+lblTotalTelephone2Invalid.Caption = Format(gQtyTelephone2Invalid, String(6, "0"))
+lblTotalCodePostalInvalid.Caption = Format(gQtyPostalCodeInvalid, String(6, "0"))
+lblTotalFedUnitInvalid.Caption = Format(gQtyFedUnitInvalid, String(6, "0"))
+
 End Sub
 
 Private Sub Exit_Click()
@@ -806,7 +826,7 @@ Private Sub OpenFileTxt()
     txtTotalCustomers.Text = gTotalLines - 1
     txtColumnDelimiter.Text = gFileIni.DelimiterColumn
     txtHeaderFile.Text = gFileHeader
-    pgrbProcessFile.Max = gTotalLines
+    pgrbProcessFile.Max = gTotalLines - 1
     
 HandleError:
     Call LogSystem("ERROR", "OpenFileTxt", Err.Number, Err.Description)
@@ -835,8 +855,11 @@ Private Sub ConvertFileToCustomer()
 
 iFile = FreeFile
         
+    Dim count As Integer
     Dim sLineText$
     Dim customer As cCustomer
+    
+    count = 1
     
     Open cmDialog1.FileName For Input As #iFile
         
@@ -846,8 +869,8 @@ iFile = FreeFile
             
             If sLineText$ <> "" Then
             
-                If gFileName = "" Then
-                    gFileName = sLineText$
+                If gFileHeader = "" Then
+                    gFileHeader = sLineText$
                 End If
                 
                 lineValue = Split(sLineText$, gFileIni.DelimiterColumn)
@@ -867,6 +890,7 @@ iFile = FreeFile
                 customer.Address = lineValue(10)
                 customer.City = lineValue(11)
                 customer.UnitFed = lineValue(12)
+                customer.LineFile = count
                 
                 gResultCustomers.Add Item:=customer
                 
@@ -874,7 +898,11 @@ iFile = FreeFile
           
             DoEvents
             
+            count = count + 1
+            
         Loop
+        
+        gResultCustomers.Remove (1)
         
     Close #iFile
 
@@ -882,16 +910,19 @@ End Sub
 
 Private Sub ValidationCustomerList()
     On Error GoTo HandleError
-    
+
     Dim count As Integer
     Dim itemCustomer As cCustomer
-    
-    Set itemCustomer = Nothing
-    
+    Dim customer As cCustomer
+       
     For Each itemCustomer In gResultCustomers
-        Debug.Print itemCustomer.Nom
-    Next itemCustomer
-   
+        CustomerValidation itemCustomer
+        pgrbProcessFile.Value = pgrbProcessFile.Value + 1
+        DoEvents
+    Next
+         
+    ResumeProcess
+         
 HandleError:
     Call LogSystem("ERROR", "ValidationCustomerList", Err.Number, Err.Description)
 End Sub

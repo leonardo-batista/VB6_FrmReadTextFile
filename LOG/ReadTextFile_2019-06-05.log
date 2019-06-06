@@ -1,0 +1,2076 @@
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 19:45:23
+[End]
+[START] 2019-06-05 19:45:23
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:23
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 19:45:27
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 19:45:30
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 20:17:14
+[End]
+[START] 2019-06-05 20:17:14
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:14
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 20:17:20
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:17:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:18
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:24
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:26
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:28
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:31
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:45
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:51
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 20:18:55
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:37:15
+[End]
+[START] 2019-06-05 21:37:15
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:15
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:37:19
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:37:27
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:38:39
+[End]
+[START] 2019-06-05 21:38:39
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:38:39
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:39:41
+[End]
+[START] 2019-06-05 21:39:41
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:41
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:39:46
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:39:48
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:41:09
+[End]
+[START] 2019-06-05 21:41:09
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:09
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:41:13
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:15
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:41:27
+[End]
+[START] 2019-06-05 21:41:27
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:27
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:41:31
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:33
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:41:44
+[End]
+[START] 2019-06-05 21:41:44
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:44
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:56
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:57
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:41:57
+[End]
+[START] 2019-06-05 21:41:57
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:41:57
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:42:00
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:02
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:42:16
+[End]
+[START] 2019-06-05 21:42:16
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:16
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:42:19
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:42:21
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:43:34
+[End]
+[START] 2019-06-05 21:43:34
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:34
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:43:38
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:43:40
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:44:38
+[End]
+[START] 2019-06-05 21:44:38
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:38
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:44:42
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:44:44
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 21:47:00
+[End]
+[START] 2019-06-05 21:47:00
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:00
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 21:47:04
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:07
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:11
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 21:47:11
+ERROR - Routine Performed: ValidationCustomerList
+Code: 380 - Message: Invalid property value
+[End]
+[START] 2019-06-05 21:47:11
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:09:39
+[End]
+[START] 2019-06-05 22:09:39
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:39
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:09:43
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:09:46
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:11:12
+[End]
+[START] 2019-06-05 22:11:12
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:12
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:11:17
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:11:19
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:13:41
+[End]
+[START] 2019-06-05 22:13:41
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:41
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:13:45
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:46
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:13:47
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:14:51
+[End]
+[START] 2019-06-05 22:14:51
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:51
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:14:56
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:14:57
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:36:53
+[End]
+[START] 2019-06-05 22:36:53
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:53
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:36:56
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:36:58
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:40:30
+[End]
+[START] 2019-06-05 22:40:30
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:30
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:40:34
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:40:36
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: SystemDirectory
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetINISetting
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+INFO - Routine Performed: LoadConfigINI
+Code: 0 - Message: Read INI File was executed ;)
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetNameMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: GetUserMachine
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+INFO - Routine Performed: TestConnection
+Code: 0 - Message: Connection Test with Database was executed with SUCCESS, Date: 2019-06-05 22:42:00
+[End]
+[START] 2019-06-05 22:42:00
+ERROR - Routine Performed: TestConnection
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:00
+INFO - Routine Performed: GetInformation
+Code: 0 - Message: Informations about MachineName, User and TestConnection (Database)
+[End]
+[START] 2019-06-05 22:42:04
+ERROR - Routine Performed: OpenFileTxt
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: ValidationCustomerList
+Code: 0 - Message: 
+[End]
+[START] 2019-06-05 22:42:06
+ERROR - Routine Performed: btnStartProcess_Click
+Code: 0 - Message: 
+[End]

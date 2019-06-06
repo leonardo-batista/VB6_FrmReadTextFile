@@ -19,6 +19,7 @@ Private pLineFile      As Integer
 Private pPrenom        As String
 Private pNom           As String
 Private pNas           As String
+Private pIsValid       As Boolean
 Private pMsgValidation As String
 
 Public Property Get LineFile() As String
@@ -51,6 +52,14 @@ End Property
 
 Public Property Let Nas(Value As String)
     pNas = Value
+End Property
+
+Public Property Get IsValid() As Boolean
+    IsValid = pIsValid
+End Property
+
+Public Property Let IsValid(Value As Boolean)
+    pIsValid = Value
 End Property
 
 Public Property Get MsgValidation() As String
