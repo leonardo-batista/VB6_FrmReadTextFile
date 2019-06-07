@@ -8,6 +8,10 @@ Option Explicit
 Public Sub CustomerValidation(pCustomer As cCustomer)
     On Error GoTo HandleError
    
+    Dim isValidBirthDate As Boolean
+    Dim isValidTelephone1 As Boolean
+    Dim isValidTelephone2 As Boolean
+   
     gMessageValidation = "|"
    
     Dim validationCustomer As cValidation
@@ -35,23 +39,35 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
     End If
     
     'Birth Date
-    If Nas(pCustomer.BirthDate) Then
-        'gQtyBir = gQtyNASValid + 1
+    If BirthDate(pCustomer.BirthDate) Then
+        isValidBirthDate = True
+        qQtyBirthDateValid = qQtyBirthDateValid + 1
     Else
-        'gQtyNASInvalid = gQtyNASInvalid + 1
+        isValidBirthDate = False
+        qQtyBirthDateInvalid = qQtyBirthDateInvalid + 1
+    End If
+    
+    If IsAdult(pCustomer.BirthDate) Then
+    
+    Else
+    
     End If
     
     'Telephone 1
     If Telephone(pCustomer.Telephone1) Then
+        isValidTelephone1 = True
         gQtyTelephone1Valid = gQtyTelephone1Valid + 1
     Else
+        isValidTelephone1 = False
         gQtyTelephone1Invalid = gQtyTelephone1Invalid + 1
     End If
     
     'Telephone 2
     If Telephone(pCustomer.Telephone2) Then
+        isValidTelephone2 = True
         gQtyTelephone2Valid = gQtyTelephone2Valid + 1
     Else
+        isValidTelephone2 = False
         gQtyTelephone2Invalid = gQtyTelephone2Invalid + 1
     End If
     
@@ -59,6 +75,7 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
     If Email(pCustomer.Email) Then
         gQtyEmailValid = gQtyEmailValid + 1
     Else
+        gMessageValidation = gMessageValidation & "|E-mail Invalid"
         gQtyEmailInvalid = gQtyEmailInvalid + 1
     End If
     
@@ -79,17 +96,10 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
     validationCustomer.Prenom = pCustomer.Prenom
     validationCustomer.Nom = pCustomer.Nom
     validationCustomer.Nas = pCustomer.Nas
-    'validationCustomer.IsValid = False
+    validationCustomer.IsValid = pCustomer.IsValid
     validationCustomer.MsgValidation = gMessageValidation
     
     gValidationCustomers.Add Item:=validationCustomer
-    
-    
-    
-    pCustomer.isValid = True
-
-    'Debug.Print pCustomer.Nas
-    'gValidationCustomers
        
 HandleError:
     Call LogSystem("ERROR", "ValidationCustomerList", Err.Number, Err.Description)
@@ -97,144 +107,220 @@ End Sub
 
 Private Function Nom(pNom As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pNom) = "" Then
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
-        isValid = False
+        IsValid = False
     End If
 
-    If isValid Then
-        Nom = isValid
+    If IsValid Then
+        Nom = IsValid
     Else
-        Nom = isValid
+        Nom = IsValid
     End If
       
 End Function
 
 Private Function Prenom(pPrenom As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pPrenom) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        Prenom = isValid
+    If IsValid Then
+        Prenom = IsValid
     Else
-        Prenom = isValid
+        Prenom = IsValid
     End If
     
 End Function
 
 Private Function Nas(pNas As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pNas) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        Nas = isValid
+    If IsValid Then
+        Nas = IsValid
     Else
-        Nas = isValid
+        Nas = IsValid
     End If
 
 End Function
 
 Private Function BirthDate(pBirthDate As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pBirthDate) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        BirthDate = isValid
+    If Len(Trim(pBirthDate)) <> 10 Then
+        IsValid = False
+    End If
+
+    'If Not Format(pBirthDate, "yyyy-MM-dd") Then
+    '    IsValid = False
+    'End If
+
+    If Not IsDate(Trim(pBirthDate)) Then
+        IsValid = False
+    End If
+
+    If IsValid Then
+        BirthDate = IsValid
     Else
-        BirthDate = isValid
+        BirthDate = IsValid
+    End If
+
+End Function
+
+Private Function IsAdult(pBirthDate As String) As Boolean
+
+    Dim IsValid As Boolean
+    IsValid = True
+
+    Dim dtCustomer As Date
+    Dim age As Long
+        
+    dtCustomer = CDate(Format(pBirthDate, "yyyy-MM-dd"))
+    age = DateDiff("yyyy", dtCustomer, Now)
+
+    If age < 18 Then
+        IsAdult = False
+    End
+
+    If IsValid Then
+        IsAdult = IsValid
+    Else
+        IsAdult = IsValid
     End If
 
 End Function
 
 Private Function Telephone(pTelephone As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pTelephone) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        Telephone = isValid
+    If IsValid Then
+        Telephone = IsValid
     Else
-        Telephone = isValid
+        Telephone = IsValid
     End If
     
 End Function
 
 Private Function Email(pEmail As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
-
-    If Trim(pEmail) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
-    End If
-
-    If isValid Then
-        Email = isValid
+    Dim IsValid As Boolean
+    Dim strDomainType As String
+    Dim strDomainName As String
+    Const sInvalidChars As String = "!#$%^&*()=+{}[]|\;:'/?>,< "
+    Dim i As Integer
+    
+    IsValid = Not InStr(1, pEmail, Chr(34)) > 0 'Check to see if there is a double quote
+    If Not IsValid Then GoTo ExitFunction
+    
+    IsValid = Not InStr(1, pEmail, "..") > 0 'Check to see if there are consecutive dots
+    If Not IsValid Then GoTo ExitFunction
+    
+    ' Check for invalid characters.
+    If Len(pEmail) > Len(sInvalidChars) Then
+        For i = 1 To Len(sInvalidChars)
+            If InStr(pEmail, Mid(sInvalidChars, i, 1)) > 0 Then
+                IsValid = False
+                GoTo ExitFunction
+            End If
+        Next
     Else
-        Email = isValid
+        For i = 1 To Len(pEmail)
+            If InStr(sInvalidChars, Mid(pEmail, i, 1)) > 0 Then
+                IsValid = False
+                GoTo ExitFunction
+            End If
+        Next
     End If
+    
+    If InStr(1, pEmail, "@") > 1 Then 'Check for an @ symbol
+        IsValid = Len(Left(pEmail, InStr(1, pEmail, "@") - 1)) > 0
+    Else
+        IsValid = False
+    End If
+    If Not IsValid Then GoTo ExitFunction
+    
+    pEmail = Right(pEmail, Len(pEmail) - InStr(1, pEmail, "@"))
+    IsValid = Not InStr(1, pEmail, "@") > 0 'Check to see if there are too many @'s
+    If Not IsValid Then GoTo ExitFunction
+    
+    strDomainType = Right(pEmail, Len(pEmail) - InStr(1, pEmail, "."))
+    IsValid = Len(strDomainType) > 0 And InStr(1, pEmail, ".") < Len(pEmail)
+    If Not IsValid Then GoTo ExitFunction
+    
+    pEmail = Left(pEmail, Len(pEmail) - Len(strDomainType) - 1)
+    Do Until InStr(1, pEmail, ".") <= 1
+        If Len(pEmail) >= InStr(1, pEmail, ".") Then
+            pEmail = Left(pEmail, Len(pEmail) - (InStr(1, pEmail, ".") - 1))
+        Else
+            IsValid = False
+            GoTo ExitFunction
+        End If
+    Loop
+    If pEmail = "." Or Len(pEmail) = 0 Then IsValid = False
+    
+ExitFunction:
+    Email = IsValid
 
 End Function
 
 Private Function FedUnit(pFedUnit As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
 
     If Trim(pFedUnit) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        FedUnit = isValid
+    If Len(Trim(pFedUnit)) > 2 Then
+        IsValid = False
+    End If
+
+    If IsValid Then
+        FedUnit = IsValid
     Else
-        FedUnit = isValid
+        FedUnit = IsValid
     End If
 
 End Function
 
 Private Function PostalCode(pPostalCode As String) As Boolean
 
-    Dim isValid As Boolean
-    isValid = True
+    Dim IsValid As Boolean
+    IsValid = True
     
     If Trim(pPostalCode) = "" Then
-        isValid = False
-        'gMessageValidation = gMessageValidation & "|Nom is Empty"
+        IsValid = False
     End If
 
-    If isValid Then
-        PostalCode = isValid
+    If IsValid Then
+        PostalCode = IsValid
     Else
-        PostalCode = isValid
+        PostalCode = IsValid
     End If
 
 End Function

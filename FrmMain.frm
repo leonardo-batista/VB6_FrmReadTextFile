@@ -707,11 +707,7 @@ Private Sub btnStartProcess_Click()
             If optValidatonDatabase.Value = True Then
                 'Function or Methode Here
             End If
-            
-            
-            
         End If
-        
     Else
         MsgBox "Please, select one file !!!", vbExclamation, "Alert - File"
     End If
@@ -877,19 +873,19 @@ iFile = FreeFile
                 
                 Set customer = New cCustomer
     
-                customer.Prenom = lineValue(0)
-                customer.Nom = lineValue(1)
-                customer.BirthDate = lineValue(2)
-                customer.Email = lineValue(3)
-                customer.Nas = lineValue(4)
-                customer.Telephone1 = lineValue(5)
-                customer.Telephone2 = lineValue(6)
-                customer.CodePostal = lineValue(7)
-                customer.Number = lineValue(8)
-                customer.Complement = lineValue(9)
-                customer.Address = lineValue(10)
-                customer.City = lineValue(11)
-                customer.UnitFed = lineValue(12)
+                customer.Prenom = UCase(Trim(lineValue(0)))
+                customer.Nom = UCase(Trim(lineValue(1)))
+                customer.BirthDate = Trim(lineValue(2))
+                customer.Email = LCase(Trim(lineValue(3)))
+                customer.Nas = Trim(lineValue(4))
+                customer.Telephone1 = Trim(lineValue(5))
+                customer.Telephone2 = Trim(lineValue(6))
+                customer.CodePostal = UCase(Trim(lineValue(7)))
+                customer.Number = UCase(Trim(lineValue(8)))
+                customer.Complement = UCase(Trim(lineValue(9)))
+                customer.Address = UCase(Trim(lineValue(10)))
+                customer.City = UCase(Trim(lineValue(11)))
+                customer.UnitFed = UCase(Trim(lineValue(12)))
                 customer.LineFile = count
                 
                 gResultCustomers.Add Item:=customer
