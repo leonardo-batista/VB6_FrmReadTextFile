@@ -4,7 +4,7 @@ Option Explicit
 Public Function GetINISetting(ByVal sHeading As String, ByVal sKey As String, sINIFileName) As String
     On Error GoTo HandleError
     
-    Const cparmLen = 50
+    Const cparmLen = 255
     Dim sReturn As String * cparmLen
     Dim sDefault As String * cparmLen
     Dim lLength As Long

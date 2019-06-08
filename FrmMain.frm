@@ -225,7 +225,7 @@ Begin VB.Form FrmMain
          Top             =   3000
          Width           =   660
       End
-      Begin VB.Label Label12 
+      Begin VB.Label lblResumeDelimiter 
          Caption         =   "?"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -234,7 +234,7 @@ Begin VB.Form FrmMain
          Top             =   1800
          Width           =   660
       End
-      Begin VB.Label Label11 
+      Begin VB.Label lblHeaderValidation 
          Caption         =   "?"
          ForeColor       =   &H00FF0000&
          Height          =   255
@@ -698,6 +698,15 @@ Private Sub btnStartProcess_Click()
         If optValidation.Value = False And optValidatonDatabase.Value = False Then
             MsgBox "Please, select one Process Option !!!", vbExclamation, "Alert - Process"
         Else
+            lblResumeDelimiter.Caption = txtColumnDelimiter.Text
+            
+            If gFileHeader = gFileIni.Header Then
+                lblHeaderValidation.Caption = "OK"
+            Else
+                lblHeaderValidation.Caption = "NOK"
+                Exit Sub
+            End If
+        
             If optValidation.Value = True Then
                 'Function or Methode Here
                 ConvertFileToCustomer

@@ -46,13 +46,7 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
         isValidBirthDate = False
         qQtyBirthDateInvalid = qQtyBirthDateInvalid + 1
     End If
-    
-    If IsAdult(pCustomer.BirthDate) Then
-    
-    Else
-    
-    End If
-    
+       
     'Telephone 1
     If Telephone(pCustomer.Telephone1) Then
         isValidTelephone1 = True
@@ -91,7 +85,16 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
     Else
         gQtyPostalCodeInvalid = gQtyPostalCodeInvalid + 1
     End If
-        
+      
+    'Customer valid: +18 and 1 Phone Number (minimum)
+    If IsAdult(pCustomer.BirthDate) = True And (isValidTelephone1 = True Or isValidTelephone2 = True) Then
+        gQtyCustomerValid = gQtyCustomerValid + 1
+        pCustomer.IsValid = True
+    Else
+        gQtyCustomerInvalid = gQtyCustomerInvalid + 1
+        pCustomer.IsValid = False
+    End If
+    
     validationCustomer.LineFile = pCustomer.LineFile
     validationCustomer.Prenom = pCustomer.Prenom
     validationCustomer.Nom = pCustomer.Nom
@@ -148,6 +151,10 @@ Private Function Nas(pNas As String) As Boolean
         IsValid = False
     End If
 
+    If Len(Trim(pNas)) <> 9 Then
+        IsValid = False
+    End If
+
     If IsValid Then
         Nas = IsValid
     Else
@@ -192,13 +199,18 @@ Private Function IsAdult(pBirthDate As String) As Boolean
 
     Dim dtCustomer As Date
     Dim age As Long
-        
+    
+    If pBirthDate = "" Or Len(pBirthDate) <> 10 Then
+        IsAdult = False
+        Exit Function
+    End If
+    
     dtCustomer = CDate(Format(pBirthDate, "yyyy-MM-dd"))
     age = DateDiff("yyyy", dtCustomer, Now)
 
     If age < 18 Then
         IsAdult = False
-    End
+    End If
 
     If IsValid Then
         IsAdult = IsValid
@@ -210,13 +222,20 @@ End Function
 
 Private Function Telephone(pTelephone As String) As Boolean
 
+    Dim phone As String
     Dim IsValid As Boolean
     IsValid = True
     
-    If Trim(pTelephone) = "" Then
+    phone = Trim(pTelephone)
+       
+    'If IsNumeric(CLng(phone)) Then
+    '    IsValid = False
+    'End If
+    
+    If Len(phone) <> 10 Then
         IsValid = False
     End If
-
+    
     If IsValid Then
         Telephone = IsValid
     Else
@@ -300,6 +319,37 @@ Private Function FedUnit(pFedUnit As String) As Boolean
         IsValid = False
     End If
 
+    Select Case UCase(pFedUnit)
+        Case Is = "AB"
+            '
+        Case Is = "BC"
+            '
+        Case Is = "PE"
+            '
+        Case Is = "MB"
+            '
+        Case Is = "NB"
+            '
+        Case Is = "NS"
+            '
+        Case Is = "NU"
+            '
+        Case Is = "ON"
+            '
+        Case Is = "QC"
+            '
+        Case Is = "SK"
+            '
+        Case Is = "NL"
+            '
+        Case Is = "NT"
+            '
+        Case Is = "YT"
+            '
+        Case Else
+            IsValid = False
+      End Select
+  
     If IsValid Then
         FedUnit = IsValid
     Else

@@ -34,10 +34,11 @@ Private Declare Function WritePrivateProfileString Lib "kernel32" _
 Global gFileIni As New cFileIni
 
 '--------------------------------------------------
-'Connection Database (ODBC)
+'Connection Database (ODBC) / Driver SQL
 '--------------------------------------------------
 Global gConnectionDB As New ADODB.Connection
 Global gRecordsetDB As New ADODB.Recordset
+Global gSQLcommand As String
 
 '--------------------------------------------------
 'VARIABLES TO VALIDATION AND REPORT ABOUT FILE TXT
