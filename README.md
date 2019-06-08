@@ -21,6 +21,5 @@
 - Functions and Subroutines
 
 # MOTS CLÉ / KEY WORDS #
-########################
 
 Visual Basic, SQL Server, File TXT, Log, Windows Form.
