@@ -20,6 +20,13 @@
 - Read a file INI
 - Functions and Subroutines
 
+# Source de Recherche / Source of Research
+
+- https://stackoverflow.com/
+- http://www.vbforums.com/
+- https://www.developpez.com/
+
 # MOTS CLÉ / KEY WORDS #
 
 Visual Basic, SQL Server, File TXT, Log, Windows Form.
+
