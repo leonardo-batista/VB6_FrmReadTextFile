@@ -20,7 +20,6 @@
 - Read a file INI
 - Functions and Subroutines
 
-########################
 # MOTS CLÉ / KEY WORDS #
 ########################
 
