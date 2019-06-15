@@ -43,6 +43,7 @@ Global gSQLcommand As String
 '--------------------------------------------------
 'VARIABLES TO VALIDATION AND REPORT ABOUT FILE TXT
 '--------------------------------------------------
+Global gFileCode As Long
 Global gFileName As String
 Global gFileHeader As String
 Global gResultCustomers As New Collection

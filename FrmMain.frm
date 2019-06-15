@@ -63,6 +63,23 @@ Begin VB.Form FrmMain
          Top             =   360
          Width           =   1455
       End
+      Begin VB.Label lblCodeFichier 
+         Caption         =   "000000"
+         ForeColor       =   &H00FF0000&
+         Height          =   255
+         Left            =   4560
+         TabIndex        =   70
+         Top             =   2160
+         Width           =   660
+      End
+      Begin VB.Label lblFileCode 
+         Caption         =   "File Code.................."
+         Height          =   255
+         Left            =   2880
+         TabIndex        =   69
+         Top             =   2160
+         Width           =   1500
+      End
       Begin VB.Label lblTotalFedUnitInvalid 
          Caption         =   "000000"
          ForeColor       =   &H00FF0000&
@@ -715,6 +732,10 @@ Private Sub btnStartProcess_Click()
             
             If optValidatonDatabase.Value = True Then
                 'Function or Methode Here
+                ConvertFileToCustomer
+                ValidationCustomerList
+                gFileCode = GetCodeFile
+                lblCodeFichier.Caption = Format(gFileCode, String(6, "0"))
             End If
         End If
     Else
@@ -775,6 +796,10 @@ Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
     End If
 End Sub
 
+Private Sub Label11_Click()
+
+End Sub
+
 Private Sub Open_Click()
     CleanFieldsFile
     OpenFileTxt
@@ -795,7 +820,8 @@ Private Sub OpenFileTxt()
     
     If cmDialog1.FileName <> "" Then
         txtPathFile.Text = cmDialog1.FileName
-        txtFileName.Text = GetFileNameFromPath(txtPathFile.Text)
+        gFileName = GetFileNameFromPath(txtPathFile.Text)
+        txtFileName.Text = gFileName
     End If
        
     iFile = FreeFile

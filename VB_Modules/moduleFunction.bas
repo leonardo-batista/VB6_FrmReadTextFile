@@ -51,3 +51,43 @@ End Function
 Function GetFileNameFromPath(strFullPath As String) As String
     GetFileNameFromPath = Right(strFullPath, Len(strFullPath) - InStrRev(strFullPath, "\"))
 End Function
+
+Function GetCodeFile() As Long
+    On Error GoTo HandleError
+
+    Dim codeFile As Long
+    
+    gSQLcommand = ""
+
+    gSQLcommand = "INSERT INTO [dbo].[TB_Fichier]"
+    gSQLcommand = gSQLcommand & "([NOM_FICHIER]"
+    gSQLcommand = gSQLcommand & ",[CHARGE_PAR]"
+    gSQLcommand = gSQLcommand & ",[TOTAL_LIGNES]"
+    gSQLcommand = gSQLcommand & ",[TOTAL_CLIENTS])"
+    gSQLcommand = gSQLcommand & " Values "
+    gSQLcommand = gSQLcommand & " ('" & gFileName & "'"
+    gSQLcommand = gSQLcommand & " ,'" & gUserMachine & "'"
+    gSQLcommand = gSQLcommand & " ," & (gTotalLines - 1) & ""
+    gSQLcommand = gSQLcommand & " ," & gQtyCustomerValid & ")"
+
+    gConnectionDB.Open "Driver=SQL Server;Server=.\SQLEXPRESS;Database=" & gFileIni.Database & ";uid=" & gFileIni.User & ";pwd=" & gFileIni.Password & ""
+    gConnectionDB.Execute gSQLcommand
+    
+    
+    gSQLcommand = "SELECT @@IDENTITY AS IDENTITY_"
+    
+    gRecordsetDB.Open gSQLcommand, gConnectionDB, adOpenStatic, adLockReadOnly
+    
+    If gRecordsetDB.RecordCount > 0 Then
+        codeFile = gRecordsetDB.Fields!IDENTITY_
+    Else
+        codeFile = 0
+    End If
+    
+    gConnectionDB.Close
+    
+    GetCodeFile = codeFile
+
+HandleError:
+    Call LogSystem("ERROR", "GetCodeFile", Err.Number, Err.Description)
+End Function
