@@ -70,7 +70,7 @@ Function GetCodeFile() As Long
     gSQLcommand = gSQLcommand & " ," & (gTotalLines - 1) & ""
     gSQLcommand = gSQLcommand & " ," & gQtyCustomerValid & ")"
 
-    gConnectionDB.Open "Driver=SQL Server;Server=.\SQLEXPRESS;Database=" & gFileIni.Database & ";uid=" & gFileIni.User & ";pwd=" & gFileIni.Password & ""
+    gConnectionDB.Open gStringConnection
     gConnectionDB.Execute gSQLcommand
     
     

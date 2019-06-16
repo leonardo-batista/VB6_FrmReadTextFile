@@ -13,7 +13,7 @@ Public Sub CustomerValidation(pCustomer As cCustomer)
     Dim isValidTelephone2 As Boolean
    
     gMessageValidation = "|"
-   
+      
     Dim validationCustomer As cValidation
     Set validationCustomer = New cValidation
     
@@ -212,11 +212,7 @@ Private Function IsAdult(pBirthDate As String) As Boolean
         IsAdult = False
     End If
 
-    If IsValid Then
-        IsAdult = IsValid
-    Else
-        IsAdult = IsValid
-    End If
+    IsAdult = IsValid
 
 End Function
 

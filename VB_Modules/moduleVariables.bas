@@ -34,12 +34,18 @@ Private Declare Function WritePrivateProfileString Lib "kernel32" _
 Global gFileIni As New cFileIni
 
 '--------------------------------------------------
+'Delay / Sleep
+'--------------------------------------------------
+Public Declare Sub Sleep Lib "kernel32.dll" (ByVal dwMilliseconds As Long)
+
+'--------------------------------------------------
 'Connection Database (ODBC) / Driver SQL
 '--------------------------------------------------
 Global gConnectionDB As New ADODB.Connection
+Global gStringConnection As String
 Global gRecordsetDB As New ADODB.Recordset
 Global gSQLcommand As String
-
+Global gQtyInsertedDB As Long
 '--------------------------------------------------
 'VARIABLES TO VALIDATION AND REPORT ABOUT FILE TXT
 '--------------------------------------------------

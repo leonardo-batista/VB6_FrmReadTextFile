@@ -725,18 +725,18 @@ Private Sub btnStartProcess_Click()
             End If
         
             If optValidation.Value = True Then
-                'Function or Methode Here
                 ConvertFileToCustomer
                 ValidationCustomerList
             End If
             
             If optValidatonDatabase.Value = True Then
-                'Function or Methode Here
-                ConvertFileToCustomer
-                ValidationCustomerList
                 gFileCode = GetCodeFile
+                ConvertFileToCustomer
                 lblCodeFichier.Caption = Format(gFileCode, String(6, "0"))
+                ValidationCustomerList
+                SaveResultDatabase
             End If
+            
         End If
     Else
         MsgBox "Please, select one file !!!", vbExclamation, "Alert - File"
@@ -871,6 +871,8 @@ Private Sub FormInformation()
 End Sub
 
 Private Sub CleanFieldsFile()
+
+    gTotalLines = 0
     pgrbProcessFile.Value = 0
     txtPathFile.Text = ""
     txtFileName.Text = ""
@@ -880,6 +882,55 @@ Private Sub CleanFieldsFile()
     txtTotalLines.Text = ""
     optValidation.Value = False
     optValidatonDatabase.Value = False
+    
+    gFileCode = 0
+    lblHeaderValidation.Caption = ""
+    lblResumeDelimiter.Caption = ""
+    lblCodeFichier.Caption = Format(gFileCode, String(6, "0"))
+    
+    'Register Valid
+    gQtyCustomerValid = 0
+    gQtyNomValid = 0
+    gQtyPrenomValid = 0
+    gQtyNASValid = 0
+    qQtyBirthDateValid = 0
+    gQtyTelephone1Valid = 0
+    gQtyTelephone2Valid = 0
+    gQtyPostalCodeValid = 0
+    gQtyFedUnitValid = 0
+    
+    lblTotalCustomerValid.Caption = Format(gQtyCustomerValid, String(6, "0"))
+    lblTotalNomValid.Caption = Format(gQtyNomValid, String(6, "0"))
+    lblTotalPrenomValid.Caption = Format(gQtyPrenomValid, String(6, "0"))
+    lblTotalNASValid.Caption = Format(gQtyNASValid, String(6, "0"))
+    lblTotalBirthDateValid.Caption = Format(qQtyBirthDateValid, String(6, "0"))
+    lblTotalTelephone1Valid.Caption = Format(gQtyTelephone1Valid, String(6, "0"))
+    lblTotalTelephone2Valid.Caption = Format(gQtyTelephone2Valid, String(6, "0"))
+    lblTotalCodePostalValid.Caption = Format(gQtyPostalCodeValid, String(6, "0"))
+    lblTotalFedUnitValid.Caption = Format(gQtyFedUnitValid, String(6, "0"))
+
+    'Register Invalid
+    gQtyCustomerInvalid = 0
+    gQtyNomInvalid = 0
+    gQtyPrenomInvalid = 0
+    gQtyNASInvalid = 0
+    qQtyBirthDateInvalid = 0
+    gQtyTelephone1Invalid = 0
+    gQtyTelephone2Invalid = 0
+    gQtyPostalCodeInvalid = 0
+    gQtyFedUnitInvalid = 0
+
+    lblTotalCustomerInvalid.Caption = Format(gQtyCustomerInvalid, String(6, "0"))
+    lblTotalNomInvalid.Caption = Format(gQtyNomInvalid, String(6, "0"))
+    lblTotalPrenomInvalid.Caption = Format(gQtyPrenomInvalid, String(6, "0"))
+    lblTotalNASInvalid.Caption = Format(gQtyNASInvalid, String(6, "0"))
+    lblTotalBirthDateInvalid.Caption = Format(qQtyBirthDateInvalid, String(6, "0"))
+    lblTotalTelephone1Invalid.Caption = Format(gQtyTelephone1Invalid, String(6, "0"))
+    lblTotalTelephone2Invalid.Caption = Format(gQtyTelephone2Invalid, String(6, "0"))
+    lblTotalCodePostalInvalid.Caption = Format(gQtyPostalCodeInvalid, String(6, "0"))
+    lblTotalFedUnitInvalid.Caption = Format(gQtyFedUnitInvalid, String(6, "0"))
+    
+    
 End Sub
 
 Private Sub ConvertFileToCustomer()
@@ -921,6 +972,7 @@ iFile = FreeFile
                 customer.Address = UCase(Trim(lineValue(10)))
                 customer.City = UCase(Trim(lineValue(11)))
                 customer.UnitFed = UCase(Trim(lineValue(12)))
+                customer.IdFile = gFileCode
                 customer.LineFile = count
                 
                 gResultCustomers.Add Item:=customer
@@ -956,4 +1008,36 @@ Private Sub ValidationCustomerList()
          
 HandleError:
     Call LogSystem("ERROR", "ValidationCustomerList", Err.Number, Err.Description)
+End Sub
+
+Private Sub SaveResultDatabase()
+       
+    Sleep (500)
+    pgrbProcessFile.Max = pgrbProcessFile.Max + (gTotalLines - 1)
+        
+    For Each itemValidation In gValidationCustomers
+
+        If itemValidation.IsValid = True Then
+        
+            For Each itemCustomer In gResultCustomers
+            
+                If itemValidation.Nas = itemCustomer.Nas Then
+                    InsertCustomer itemCustomer
+                    Exit For
+                End If
+            
+            Next
+            
+        End If
+        
+        pgrbProcessFile.Value = pgrbProcessFile.Value + 1
+        
+        DoEvents
+        
+    Next
+        
+    QtyCustomerInserted
+    
+    pgrbProcessFile.Value = pgrbProcessFile.Max
+
 End Sub

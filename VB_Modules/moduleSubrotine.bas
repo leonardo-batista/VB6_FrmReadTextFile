@@ -75,7 +75,6 @@ HandleError:
 End Sub
 
 Public Sub LogSystem(levelError$, rotineName$, code$, message$)
-    On Error GoTo HandleError
 
     Dim nUnit As Integer
     
@@ -87,16 +86,15 @@ Public Sub LogSystem(levelError$, rotineName$, code$, message$)
         Print #nUnit, "Code: " & code$ & " - Message: " & message$
         Print #nUnit, "[End]" & Chr(13)
     Close nUnit
-
-HandleError:
-    Debug.Print Err.Number & " " & Err.Description
-    
+   
 End Sub
 
 Public Sub TestConnection()
     On Error GoTo HandleError
 
-        gConnectionDB.Open "Driver=SQL Server;Server=.\SQLEXPRESS;Database=" & gFileIni.Database & ";uid=" & gFileIni.User & ";pwd=" & gFileIni.Password & ""
+        gStringConnection = "Driver=SQL Server;Server=.\SQLEXPRESS;Database=" & gFileIni.Database & ";uid=" & gFileIni.User & ";pwd=" & gFileIni.Password & ""
+        
+        gConnectionDB.Open gStringConnection
         gRecordsetDB.Open "SELECT CONVERT(VARCHAR(10), GETDATE(), 121) + ' ' + CONVERT(VARCHAR(8), GETDATE(), 108) AS DATE", gConnectionDB, adOpenStatic, adLockReadOnly
         
         If gRecordsetDB.RecordCount > 0 Then

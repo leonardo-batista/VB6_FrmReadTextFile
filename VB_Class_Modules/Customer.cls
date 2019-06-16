@@ -15,6 +15,7 @@ Option Explicit
 
 'Class cCustomer
 
+Private pIdFile      As String
 Private pLineFile    As String
 Private pPrenom      As String
 Private pNom         As String
@@ -30,6 +31,14 @@ Private pAddress     As String
 Private pCity        As String
 Private pUnitFed     As String
 Private pIsValid     As Boolean
+
+Public Property Get IdFile() As String
+    IdFile = pIdFile
+End Property
+
+Public Property Let IdFile(Value As String)
+    pIdFile = Value
+End Property
 
 Public Property Get LineFile() As String
     LineFile = pLineFile
